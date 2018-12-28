@@ -44,5 +44,19 @@ public class Main6 {
 		radioValue = rdBtn_radio.get(1).isSelected();
 		rdBtn_radio.get(1).click();
 	
+		
+		
+		List<WebElement> rdBtn_check = chrome.findElements(By.name("OPCAO")); //procura pelo nome
+		
+				boolean radioValue1 = false;
+		
+		
+		radioValue1 = rdBtn_check.get(2).isSelected();
+		rdBtn_check.get(2).click();
+		
+		
+		WebElement oCheck  = chrome.findElement(By.cssSelector("input[type=\"submit\"]")); //Confere as respostas
+		oCheck.click();
+		
 	}
 }
