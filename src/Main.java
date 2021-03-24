@@ -17,7 +17,7 @@ public class Main {
 	 
 		System.setProperty("webdriver.chrome.driver", "E:/Natanael/tsi/3periodo/java/eclipse/driver/chromedriver.exe");
         WebDriver chrome = new ChromeDriver();
-     /*   chrome.get("https://accounts.google.com/signin/v2/sl/pwd?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&osid=1&service=mail&ss=1&ltmpl=default&rm=false&flowName=GlifWebSignIn&flowEntry=AddSession&cid=0&navigationDirection=forward");
+     /*  // chrome.get("https://accounts.google.com/signin/v2/sl/pwd?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&osid=1&service=mail&ss=1&ltmpl=default&rm=false&flowName=GlifWebSignIn&flowEntry=AddSession&cid=0&navigationDirection=forward");
         	WebElement formEmail = chrome.findElement(By.name("identifier")); //busca pelo name	
         	formEmail.sendKeys("ngsneto@gmail.com");
         	(formEmail).click();
